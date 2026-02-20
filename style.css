@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+.profile-card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+#header{
+    color: rgb(38, 91, 206);
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(135deg,  #667eea 0%, #764ba2 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-pf{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+#imgPF{
+   
+    border: 3px solid rgb(38, 91, 206);
+    border-radius: 50%;
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: box-shadow 0.3s ease;
+}
+#imgPF:hover{
+    box-shadow: 0 0 15px 4px rgba(0, 140, 186, 0.5);
+}
+    
+#name{
+    color: rgb(85, 30, 236);
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 6px 0 4px;
+}
+
+.divider{
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 16px 0;
+}
+
+#info-section {
+    text-align: left;
+    padding: 0 10px;
+    color: #444;
+    font-size: 0.95em;
+}
+
+#info-section p {
+    margin: 8px 0;
+}
+
+#info-section a {
+    color: rgb(38, 91, 206);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#info-section a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin-right: 8px;
+    color : rgba(241, 120, 115, 0.884);
+    width: 16px;
+}
+
+#contact{
+    margin-top: 10px;
+}
+
+#NameContact{
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+
+.btn-group-contact{
+    display: flex;
+   justify-content: center;
+   gap: 12px;
+   flex-wrap: wrap;
+}
+
+.btn-social{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.95em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-social:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.btn-social i {
+    font-size: 1.1em;
+}
+
+.btn-facebook {
+    background-color: #1877f2;
+}
+.btn-facebook:hover {
+    background-color: #145dbf;
+}
+
+.btn-line{
+    background-color: #06c755;
+}
+
+.btn-line:hover {
+    background-color: #05a847;
+}
